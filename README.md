@@ -203,7 +203,9 @@ These points are located in the four quadrants of the I-Q plane.
 
 This confirms that the modulation process maps the binary input into the intended QPSK symbol positions.
 
-**Insert transmitted constellation diagram here.**
+### Transmitted QPSK Constellation
+
+![Transmitted QPSK Constellation](images/transmitted_constellation.png)
 
 ### 8.2 Received QPSK Constellation
 
@@ -211,7 +213,9 @@ After introducing AWGN, the received symbols become scattered around their origi
 
 As noise intensity increases, the spread of the received symbols increases, making symbol detection less reliable.
 
-**Insert received constellation diagram here.**
+### Received QPSK Constellation
+
+![Received QPSK Constellation](images/received_constellation.png)
 
 ### 8.3 Bit Error Rate Under Different Noise Conditions
 
@@ -238,7 +242,9 @@ Small differences between simulated and theoretical BER values may occur because
 
 At sufficiently high \(E_b/N_0\), a finite simulation may observe zero errors even when the theoretical BER remains nonzero.
 
-**Insert simulated versus theoretical BER graph here.**
+### Simulated vs Theoretical BER
+
+![BER Comparison](images/ber_comparison.png)
 
 ## 9. How to Run the Project
 
